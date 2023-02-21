@@ -63,6 +63,16 @@ namespace Analisis2Proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4 {
+            get {
+                object obj = ResourceManager.GetObject("4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap azul_color {
             get {
                 object obj = ResourceManager.GetObject("azul-color", resourceCulture);
@@ -87,6 +97,16 @@ namespace Analisis2Proyecto.Properties {
             get {
                 object obj = ResourceManager.GetObject("gradiente-gris-negro-falta-definicion-llanura-lujo-abstracta-utilizado-como-pared" +
                         "-estudio-fondo-exhibir-sus-productos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOGO_HERASME1 {
+            get {
+                object obj = ResourceManager.GetObject("LOGO HERASME1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
