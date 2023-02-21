@@ -46,16 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmListaDeModelos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmListaDeModelos.Designer.cs">
+      <DependentUpon>frmListaDeModelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioUIBienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioUIBienvenida.Designer.cs">
+      <DependentUpon>frmInicioUIBienvenida.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmListaDeModelos.resx">
+      <DependentUpon>frmListaDeModelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioUIBienvenida.resx">
+      <DependentUpon>frmInicioUIBienvenida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +88,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul-color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rare Gallery wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thomas-lefebvre-_0eMNseqmYk-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toa-heftiba-i0p916iq-ew-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_soft-blue-gradients-color-background-modern-screen-vector_13129498.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_soft-blue-gradients-color-background-modern-screen-vector_13129501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\click_tap_single_hand_gesture_icon_218645.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradiente-gris-negro-falta-definicion-llanura-lujo-abstracta-utilizado-como-pared-estudio-fondo-exhibir-sus-productos.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

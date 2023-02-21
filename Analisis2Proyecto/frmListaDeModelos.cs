@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Analisis2Proyecto
 {
-    public partial class Form1 : Form
+    public partial class frmListaDeModelos : Form
     {
-        public Form1()
+        public frmListaDeModelos()
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
