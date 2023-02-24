@@ -25,5 +25,10 @@ namespace Analisis2Proyecto
             // Mostrar el formulario
             formulario.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

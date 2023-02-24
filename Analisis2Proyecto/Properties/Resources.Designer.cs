@@ -144,6 +144,36 @@ namespace Analisis2Proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap REVEZ_al_polygonal_background_blue_red {
+            get {
+                object obj = ResourceManager.GetObject("REVEZ al-polygonal-background-blue-red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stock_photo_abstract_multicolored_background_poly_pattern {
+            get {
+                object obj = ResourceManager.GetObject("stock-photo-abstract-multicolored-background-poly-pattern", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stock_photo_minimal_polygonal_background_blue_red {
+            get {
+                object obj = ResourceManager.GetObject("stock-photo-minimal-polygonal-background-blue-red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap thomas_lefebvre__0eMNseqmYk_unsplash {
             get {
                 object obj = ResourceManager.GetObject("thomas-lefebvre-_0eMNseqmYk-unsplash", resourceCulture);

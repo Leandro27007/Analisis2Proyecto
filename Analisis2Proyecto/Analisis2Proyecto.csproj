@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaja.Designer.cs">
+      <DependentUpon>frmCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="frmListaDeModelos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCaja.resx">
+      <DependentUpon>frmCaja.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListaDeModelos.resx">
       <DependentUpon>frmListaDeModelos.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +136,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo-minimal-polygonal-background-blue-red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo-abstract-multicolored-background-poly-pattern.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REVEZ al-polygonal-background-blue-red.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
