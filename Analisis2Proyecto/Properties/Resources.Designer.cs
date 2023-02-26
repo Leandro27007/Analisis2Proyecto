@@ -63,6 +63,16 @@ namespace Analisis2Proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2_Polygnal_blue07 {
+            get {
+                object obj = ResourceManager.GetObject("2 Polygnal blue07", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4 {
             get {
                 object obj = ResourceManager.GetObject("4", resourceCulture);
@@ -76,6 +86,16 @@ namespace Analisis2Proyecto.Properties {
         internal static System.Drawing.Bitmap azul_color {
             get {
                 object obj = ResourceManager.GetObject("azul-color", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BG_Poligonal_dark_blue7 {
+            get {
+                object obj = ResourceManager.GetObject("BG Poligonal dark blue7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -97,6 +117,26 @@ namespace Analisis2Proyecto.Properties {
             get {
                 object obj = ResourceManager.GetObject("gradiente-gris-negro-falta-definicion-llanura-lujo-abstracta-utilizado-como-pared" +
                         "-estudio-fondo-exhibir-sus-productos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ICON_settings_80622 {
+            get {
+                object obj = ResourceManager.GetObject("ICON-settings_80622", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_shoppingcart_87973 {
+            get {
+                object obj = ResourceManager.GetObject("icon-shoppingcart_87973", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -134,6 +174,16 @@ namespace Analisis2Proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Polygonal_background07 {
+            get {
+                object obj = ResourceManager.GetObject("Polygonal background07", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rare_Gallery_wallpaper {
             get {
                 object obj = ResourceManager.GetObject("Rare Gallery wallpaper", resourceCulture);
@@ -147,6 +197,36 @@ namespace Analisis2Proyecto.Properties {
         internal static System.Drawing.Bitmap REVEZ_al_polygonal_background_blue_red {
             get {
                 object obj = ResourceManager.GetObject("REVEZ al-polygonal-background-blue-red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap round_account_button_with_user_inside_icon_icons_com_72596 {
+            get {
+                object obj = ResourceManager.GetObject("round-account-button-with-user-inside_icon-icons.com_72596", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seo_social_web_network_internet_340_icon_icons_com_61497 {
+            get {
+                object obj = ResourceManager.GetObject("seo-social-web-network-internet_340_icon-icons.com_61497", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shoppingcart_80945 {
+            get {
+                object obj = ResourceManager.GetObject("shoppingcart_80945", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

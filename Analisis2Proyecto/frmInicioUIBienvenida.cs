@@ -21,9 +21,13 @@ namespace Analisis2Proyecto
         {
 
             frmListaDeModelos formulario = new frmListaDeModelos();
+            frmCaja formulario2 = new frmCaja();
+            frmCajaHerramientas formulario3 = new frmCajaHerramientas();
 
             // Mostrar el formulario
             formulario.Show();
+            formulario2.Show();
+            formulario3.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
