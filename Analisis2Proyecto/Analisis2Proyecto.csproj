@@ -81,6 +81,36 @@
     <Compile Include="Controles\UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAdministradorAgregarUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministradorAgregarUser.Designer.cs">
+      <DependentUpon>frmAdministradorAgregarUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministradorEditarServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministradorEditarServicios.Designer.cs">
+      <DependentUpon>frmAdministradorEditarServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministradorFacturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministradorFacturas.Designer.cs">
+      <DependentUpon>frmAdministradorFacturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministradorInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministradorInicio.Designer.cs">
+      <DependentUpon>frmAdministradorInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministradorListaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministradorListaUsuarios.Designer.cs">
+      <DependentUpon>frmAdministradorListaUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCaja.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,10 +138,49 @@
     <Compile Include="frmInicioUIBienvenida.Designer.cs">
       <DependentUpon>frmInicioUIBienvenida.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMedicoEnEsperaDePaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedicoEnEsperaDePaciente.Designer.cs">
+      <DependentUpon>frmMedicoEnEsperaDePaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedicoInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedicoInicio.Designer.cs">
+      <DependentUpon>frmMedicoInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerfilUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfilUsuario.Designer.cs">
+      <DependentUpon>frmPerfilUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerfilUsuarioSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfilUsuarioSeguridad.Designer.cs">
+      <DependentUpon>frmPerfilUsuarioSeguridad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controles\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministradorAgregarUser.resx">
+      <DependentUpon>frmAdministradorAgregarUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministradorEditarServicios.resx">
+      <DependentUpon>frmAdministradorEditarServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministradorFacturas.resx">
+      <DependentUpon>frmAdministradorFacturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministradorInicio.resx">
+      <DependentUpon>frmAdministradorInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministradorListaUsuarios.resx">
+      <DependentUpon>frmAdministradorListaUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCaja.resx">
       <DependentUpon>frmCaja.cs</DependentUpon>
@@ -124,6 +193,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicioUIBienvenida.resx">
       <DependentUpon>frmInicioUIBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMedicoEnEsperaDePaciente.resx">
+      <DependentUpon>frmMedicoEnEsperaDePaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMedicoInicio.resx">
+      <DependentUpon>frmMedicoInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfilUsuario.resx">
+      <DependentUpon>frmPerfilUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfilUsuarioSeguridad.resx">
+      <DependentUpon>frmPerfilUsuarioSeguridad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -219,6 +300,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\seo-social-web-network-internet_340_icon-icons.com_61497.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadingcircles_102612.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-80_icon-icons.com_65644.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_man_person_user_icon_127232.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

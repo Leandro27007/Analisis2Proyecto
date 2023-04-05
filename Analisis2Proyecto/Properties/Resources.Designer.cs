@@ -63,6 +63,16 @@ namespace Analisis2Proyecto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_80_icon_icons_com_65644 {
+            get {
+                object obj = ResourceManager.GetObject("1-80_icon-icons.com_65644", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2_Polygnal_blue07 {
             get {
                 object obj = ResourceManager.GetObject("2 Polygnal blue07", resourceCulture);
@@ -76,6 +86,16 @@ namespace Analisis2Proyecto.Properties {
         internal static System.Drawing.Bitmap _4 {
             get {
                 object obj = ResourceManager.GetObject("4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap admin_man_person_user_icon_127232 {
+            get {
+                object obj = ResourceManager.GetObject("admin_man_person_user_icon_127232", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -137,6 +157,16 @@ namespace Analisis2Proyecto.Properties {
         internal static System.Drawing.Bitmap icon_shoppingcart_87973 {
             get {
                 object obj = ResourceManager.GetObject("icon-shoppingcart_87973", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loadingcircles_102612 {
+            get {
+                object obj = ResourceManager.GetObject("loadingcircles_102612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

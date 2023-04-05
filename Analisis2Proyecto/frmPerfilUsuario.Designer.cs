@@ -1,7 +1,7 @@
 ﻿
 namespace Analisis2Proyecto
 {
-    partial class frmCajaHerramientas
+    partial class frmPerfilUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@ namespace Analisis2Proyecto
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCajaHerramientas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPerfilUsuario));
             this.xuiGradientPanel1 = new XanderUI.XUIGradientPanel();
-            this.jGradientPanel1 = new JGradient_Panel.JGradientPanel();
+            this.jGradientPanel3 = new JGradient_Panel.JGradientPanel();
             this.jGradientPanel4 = new JGradient_Panel.JGradientPanel();
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -47,28 +47,35 @@ namespace Analisis2Proyecto
             this.label3 = new System.Windows.Forms.Label();
             this.rjButton9 = new Analisis2Proyecto.Controles.RJButton();
             this.rjButton10 = new Analisis2Proyecto.Controles.RJButton();
-            this.label15 = new System.Windows.Forms.Label();
-            this.xuiCheckBox1 = new XanderUI.XUICheckBox();
-            this.jGradientPanel2 = new JGradient_Panel.JGradientPanel();
-            this.jGradientPanel3 = new JGradient_Panel.JGradientPanel();
+            this.jGradientPanel1 = new JGradient_Panel.JGradientPanel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.xuiCheckBox3 = new XanderUI.XUICheckBox();
             this.xuiButton3 = new XanderUI.XUIButton();
             this.xuiButton2 = new XanderUI.XUIButton();
             this.xuiButton1 = new XanderUI.XUIButton();
             this.jFlatButton4 = new FlatButton.JFlatButton();
             this.jFlatButton5 = new FlatButton.JFlatButton();
-            this.jFlatButton3 = new FlatButton.JFlatButton();
-            this.jFlatButton2 = new FlatButton.JFlatButton();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             this.jFlatButton1 = new FlatButton.JFlatButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.xuiButton4 = new XanderUI.XUIButton();
-            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.xuiCheckBox1 = new XanderUI.XUICheckBox();
+            this.xuiCheckBox4 = new XanderUI.XUICheckBox();
+            this.xuiCheckBox5 = new XanderUI.XUICheckBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.xuiCheckBox6 = new XanderUI.XUICheckBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.xuiGradientPanel1.SuspendLayout();
-            this.jGradientPanel1.SuspendLayout();
-            this.jGradientPanel4.SuspendLayout();
-            this.jGradientPanel2.SuspendLayout();
             this.jGradientPanel3.SuspendLayout();
+            this.jGradientPanel4.SuspendLayout();
+            this.jGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -86,25 +93,21 @@ namespace Analisis2Proyecto
             this.xuiGradientPanel1.PrimerColor = System.Drawing.Color.Black;
             this.xuiGradientPanel1.Size = new System.Drawing.Size(801, 38);
             this.xuiGradientPanel1.Style = XanderUI.XUIGradientPanel.GradientStyle.Corners;
-            this.xuiGradientPanel1.TabIndex = 29;
+            this.xuiGradientPanel1.TabIndex = 43;
             this.xuiGradientPanel1.TopLeft = System.Drawing.Color.Black;
             this.xuiGradientPanel1.TopRight = System.Drawing.Color.Black;
             // 
-            // jGradientPanel1
+            // jGradientPanel3
             // 
-            this.jGradientPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.jGradientPanel1.ColorBottom = System.Drawing.Color.RoyalBlue;
-            this.jGradientPanel1.ColorTop = System.Drawing.Color.DeepSkyBlue;
-            this.jGradientPanel1.Controls.Add(this.jGradientPanel4);
-            this.jGradientPanel1.Controls.Add(this.label1);
-            this.jGradientPanel1.Controls.Add(this.xuiButton4);
-            this.jGradientPanel1.Controls.Add(this.label15);
-            this.jGradientPanel1.Controls.Add(this.xuiCheckBox1);
-            this.jGradientPanel1.Controls.Add(this.label2);
-            this.jGradientPanel1.Location = new System.Drawing.Point(195, 136);
-            this.jGradientPanel1.Name = "jGradientPanel1";
-            this.jGradientPanel1.Size = new System.Drawing.Size(593, 349);
-            this.jGradientPanel1.TabIndex = 28;
+            this.jGradientPanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.jGradientPanel3.ColorBottom = System.Drawing.Color.Black;
+            this.jGradientPanel3.ColorTop = System.Drawing.Color.DodgerBlue;
+            this.jGradientPanel3.Controls.Add(this.jFlatButton4);
+            this.jGradientPanel3.Controls.Add(this.jFlatButton5);
+            this.jGradientPanel3.Location = new System.Drawing.Point(12, 148);
+            this.jGradientPanel3.Name = "jGradientPanel3";
+            this.jGradientPanel3.Size = new System.Drawing.Size(183, 349);
+            this.jGradientPanel3.TabIndex = 42;
             // 
             // jGradientPanel4
             // 
@@ -126,11 +129,10 @@ namespace Analisis2Proyecto
             this.jGradientPanel4.Controls.Add(this.jFlatButton1);
             this.jGradientPanel4.Controls.Add(this.rjButton9);
             this.jGradientPanel4.Controls.Add(this.rjButton10);
-            this.jGradientPanel4.Location = new System.Drawing.Point(27, 106);
+            this.jGradientPanel4.Location = new System.Drawing.Point(218, 196);
             this.jGradientPanel4.Name = "jGradientPanel4";
-            this.jGradientPanel4.Size = new System.Drawing.Size(551, 241);
-            this.jGradientPanel4.TabIndex = 39;
-            this.jGradientPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.jGradientPanel4_Paint);
+            this.jGradientPanel4.Size = new System.Drawing.Size(551, 238);
+            this.jGradientPanel4.TabIndex = 44;
             // 
             // label14
             // 
@@ -154,7 +156,6 @@ namespace Analisis2Proyecto
             this.label11.Size = new System.Drawing.Size(107, 48);
             this.label11.TabIndex = 42;
             this.label11.Text = "- Colesterol\r\n- Glucosa";
-            this.label11.Click += new System.EventHandler(this.label8_Click);
             // 
             // label10
             // 
@@ -166,7 +167,6 @@ namespace Analisis2Proyecto
             this.label10.Size = new System.Drawing.Size(143, 24);
             this.label10.TabIndex = 42;
             this.label10.Text = "Caronila Acosta";
-            this.label10.Click += new System.EventHandler(this.label8_Click);
             // 
             // label8
             // 
@@ -178,7 +178,6 @@ namespace Analisis2Proyecto
             this.label8.Size = new System.Drawing.Size(50, 24);
             this.label8.TabIndex = 42;
             this.label8.Text = "0001";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // xuiCheckBox2
             // 
@@ -315,55 +314,57 @@ namespace Analisis2Proyecto
             this.rjButton10.TextColor = System.Drawing.Color.Transparent;
             this.rjButton10.UseVisualStyleBackColor = false;
             // 
-            // label15
+            // jGradientPanel1
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(234, 66);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 24);
-            this.label15.TabIndex = 42;
-            this.label15.Text = "0001";
-            this.label15.Click += new System.EventHandler(this.label8_Click);
+            this.jGradientPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.jGradientPanel1.ColorBottom = System.Drawing.Color.RoyalBlue;
+            this.jGradientPanel1.ColorTop = System.Drawing.Color.DeepSkyBlue;
+            this.jGradientPanel1.Controls.Add(this.label23);
+            this.jGradientPanel1.Controls.Add(this.label19);
+            this.jGradientPanel1.Controls.Add(this.label18);
+            this.jGradientPanel1.Controls.Add(this.label17);
+            this.jGradientPanel1.Controls.Add(this.label16);
+            this.jGradientPanel1.Controls.Add(this.label24);
+            this.jGradientPanel1.Controls.Add(this.xuiCheckBox6);
+            this.jGradientPanel1.Controls.Add(this.xuiCheckBox5);
+            this.jGradientPanel1.Controls.Add(this.xuiCheckBox4);
+            this.jGradientPanel1.Controls.Add(this.xuiCheckBox1);
+            this.jGradientPanel1.Controls.Add(this.label15);
+            this.jGradientPanel1.Controls.Add(this.xuiCheckBox3);
+            this.jGradientPanel1.Controls.Add(this.label9);
+            this.jGradientPanel1.Controls.Add(this.label2);
+            this.jGradientPanel1.Controls.Add(this.label1);
+            this.jGradientPanel1.Controls.Add(this.label25);
+            this.jGradientPanel1.Location = new System.Drawing.Point(197, 148);
+            this.jGradientPanel1.Name = "jGradientPanel1";
+            this.jGradientPanel1.Size = new System.Drawing.Size(593, 349);
+            this.jGradientPanel1.TabIndex = 43;
             // 
-            // xuiCheckBox1
+            // label24
             // 
-            this.xuiCheckBox1.CheckboxCheckColor = System.Drawing.Color.White;
-            this.xuiCheckBox1.CheckboxColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(250)))));
-            this.xuiCheckBox1.CheckboxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
-            this.xuiCheckBox1.CheckboxStyle = XanderUI.XUICheckBox.Style.Material;
-            this.xuiCheckBox1.Checked = false;
-            this.xuiCheckBox1.ForeColor = System.Drawing.Color.White;
-            this.xuiCheckBox1.Location = new System.Drawing.Point(196, 65);
-            this.xuiCheckBox1.Name = "xuiCheckBox1";
-            this.xuiCheckBox1.Size = new System.Drawing.Size(221, 26);
-            this.xuiCheckBox1.TabIndex = 36;
-            this.xuiCheckBox1.Text = "dsgs";
-            this.xuiCheckBox1.TickThickness = 2;
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label24.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(157, 68);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(76, 19);
+            this.label24.TabIndex = 42;
+            this.label24.Text = "Maria007";
             // 
-            // jGradientPanel2
+            // xuiCheckBox3
             // 
-            this.jGradientPanel2.ColorBottom = System.Drawing.Color.Black;
-            this.jGradientPanel2.ColorTop = System.Drawing.Color.DodgerBlue;
-            this.jGradientPanel2.Controls.Add(this.jFlatButton3);
-            this.jGradientPanel2.Controls.Add(this.jFlatButton2);
-            this.jGradientPanel2.Location = new System.Drawing.Point(3, 135);
-            this.jGradientPanel2.Name = "jGradientPanel2";
-            this.jGradientPanel2.Size = new System.Drawing.Size(183, 349);
-            this.jGradientPanel2.TabIndex = 28;
-            // 
-            // jGradientPanel3
-            // 
-            this.jGradientPanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.jGradientPanel3.ColorBottom = System.Drawing.Color.Black;
-            this.jGradientPanel3.ColorTop = System.Drawing.Color.DodgerBlue;
-            this.jGradientPanel3.Controls.Add(this.jFlatButton4);
-            this.jGradientPanel3.Controls.Add(this.jFlatButton5);
-            this.jGradientPanel3.Location = new System.Drawing.Point(6, 136);
-            this.jGradientPanel3.Name = "jGradientPanel3";
-            this.jGradientPanel3.Size = new System.Drawing.Size(183, 349);
-            this.jGradientPanel3.TabIndex = 28;
+            this.xuiCheckBox3.CheckboxCheckColor = System.Drawing.Color.White;
+            this.xuiCheckBox3.CheckboxColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(250)))));
+            this.xuiCheckBox3.CheckboxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
+            this.xuiCheckBox3.CheckboxStyle = XanderUI.XUICheckBox.Style.Material;
+            this.xuiCheckBox3.Checked = false;
+            this.xuiCheckBox3.ForeColor = System.Drawing.Color.White;
+            this.xuiCheckBox3.Location = new System.Drawing.Point(128, 67);
+            this.xuiCheckBox3.Name = "xuiCheckBox3";
+            this.xuiCheckBox3.Size = new System.Drawing.Size(221, 26);
+            this.xuiCheckBox3.TabIndex = 36;
+            this.xuiCheckBox3.Text = "dsgs";
+            this.xuiCheckBox3.TickThickness = 2;
             // 
             // xuiButton3
             // 
@@ -430,9 +431,9 @@ namespace Analisis2Proyecto
             // 
             // jFlatButton4
             // 
-            this.jFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.jFlatButton4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.jFlatButton4.ButtonText = "SOPORTE TI";
+            this.jFlatButton4.BackColor = System.Drawing.Color.Turquoise;
+            this.jFlatButton4.BackgroundColor = System.Drawing.Color.Turquoise;
+            this.jFlatButton4.ButtonText = "INFORMACION";
             this.jFlatButton4.CausesValidation = false;
             this.jFlatButton4.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageLeft")));
             this.jFlatButton4.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton4.ErrorImageRight")));
@@ -458,7 +459,7 @@ namespace Analisis2Proyecto
             // 
             this.jFlatButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.jFlatButton5.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.jFlatButton5.ButtonText = "REEMBOLSO";
+            this.jFlatButton5.ButtonText = "SEGURIDAD";
             this.jFlatButton5.CausesValidation = false;
             this.jFlatButton5.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton5.ErrorImageLeft")));
             this.jFlatButton5.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton5.ErrorImageRight")));
@@ -479,59 +480,29 @@ namespace Analisis2Proyecto
             this.jFlatButton5.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.jFlatButton5.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
             this.jFlatButton5.TabIndex = 20;
-            this.jFlatButton5.Click += new System.EventHandler(this.jFlatButton5_Click);
             // 
-            // jFlatButton3
+            // label23
             // 
-            this.jFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.jFlatButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.jFlatButton3.ButtonText = "TURNOS";
-            this.jFlatButton3.CausesValidation = false;
-            this.jFlatButton3.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageLeft")));
-            this.jFlatButton3.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ErrorImageRight")));
-            this.jFlatButton3.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton3.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton3.ForeColors = System.Drawing.Color.Empty;
-            this.jFlatButton3.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton3.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton3.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton3.ImageLeft")));
-            this.jFlatButton3.ImageRight = null;
-            this.jFlatButton3.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.Location = new System.Drawing.Point(3, 99);
-            this.jFlatButton3.Name = "jFlatButton3";
-            this.jFlatButton3.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton3.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton3.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton3.Size = new System.Drawing.Size(178, 48);
-            this.jFlatButton3.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton3.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton3.TabIndex = 20;
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Microsoft YaHei UI", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Image = global::Analisis2Proyecto.Properties.Resources._2_Polygnal_blue07;
+            this.label23.Location = new System.Drawing.Point(131, 10);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(348, 31);
+            this.label23.TabIndex = 38;
+            this.label23.Text = "INFORMACION DE USUARIO";
             // 
-            // jFlatButton2
+            // label25
             // 
-            this.jFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.jFlatButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.jFlatButton2.ButtonText = "REEMBOLSO";
-            this.jFlatButton2.CausesValidation = false;
-            this.jFlatButton2.ErrorImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageLeft")));
-            this.jFlatButton2.ErrorImageRight = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ErrorImageRight")));
-            this.jFlatButton2.FocusBackground = System.Drawing.Color.Empty;
-            this.jFlatButton2.FocusFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton2.ForeColors = System.Drawing.Color.Empty;
-            this.jFlatButton2.HoverBackground = System.Drawing.Color.Empty;
-            this.jFlatButton2.HoverFontColor = System.Drawing.Color.Empty;
-            this.jFlatButton2.ImageLeft = ((System.Drawing.Image)(resources.GetObject("jFlatButton2.ImageLeft")));
-            this.jFlatButton2.ImageRight = null;
-            this.jFlatButton2.LeftPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.Location = new System.Drawing.Point(2, 45);
-            this.jFlatButton2.Name = "jFlatButton2";
-            this.jFlatButton2.PaddingLeftPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton2.PaddingRightPicture = new System.Windows.Forms.Padding(0);
-            this.jFlatButton2.RightPictureColor = System.Drawing.Color.Transparent;
-            this.jFlatButton2.Size = new System.Drawing.Size(178, 48);
-            this.jFlatButton2.SizeModeLeft = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.jFlatButton2.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
-            this.jFlatButton2.TabIndex = 20;
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(22, 67);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(116, 25);
+            this.label25.TabIndex = 37;
+            this.label25.Text = "UserName: ";
             // 
             // jFlatButton1
             // 
@@ -559,51 +530,6 @@ namespace Analisis2Proyecto
             this.jFlatButton1.SizeModeRight = System.Windows.Forms.PictureBoxSizeMode.Normal;
             this.jFlatButton1.TabIndex = 20;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Image = global::Analisis2Proyecto.Properties.Resources._2_Polygnal_blue07;
-            this.label1.Location = new System.Drawing.Point(121, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(355, 31);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "REEMBOLSO PAGO EFECTIVO";
-            // 
-            // xuiButton4
-            // 
-            this.xuiButton4.BackgroundColor = System.Drawing.Color.Teal;
-            this.xuiButton4.ButtonImage = global::Analisis2Proyecto.Properties.Resources.seo_social_web_network_internet_340_icon_icons_com_61497;
-            this.xuiButton4.ButtonStyle = XanderUI.XUIButton.Style.MaterialRounded;
-            this.xuiButton4.ButtonText = "BUSCAR";
-            this.xuiButton4.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.xuiButton4.ClickTextColor = System.Drawing.Color.DodgerBlue;
-            this.xuiButton4.CornerRadius = 5;
-            this.xuiButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xuiButton4.Horizontal_Alignment = System.Drawing.StringAlignment.Center;
-            this.xuiButton4.HoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(225)))));
-            this.xuiButton4.HoverTextColor = System.Drawing.Color.DodgerBlue;
-            this.xuiButton4.ImagePosition = XanderUI.XUIButton.imgPosition.Left;
-            this.xuiButton4.Location = new System.Drawing.Point(435, 65);
-            this.xuiButton4.Name = "xuiButton4";
-            this.xuiButton4.Size = new System.Drawing.Size(88, 26);
-            this.xuiButton4.TabIndex = 23;
-            this.xuiButton4.TextColor = System.Drawing.Color.LightBlue;
-            this.xuiButton4.Vertical_Alignment = System.Drawing.StringAlignment.Center;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Image = global::Analisis2Proyecto.Properties.Resources.vecteezy_soft_blue_gradients_color_background_modern_screen_vector_13129498;
-            this.label2.Location = new System.Drawing.Point(22, 65);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 25);
-            this.label2.TabIndex = 37;
-            this.label2.Text = "Codigo de factura: ";
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Black;
@@ -612,7 +538,7 @@ namespace Analisis2Proyecto
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(802, 403);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 27;
+            this.pictureBox3.TabIndex = 41;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox1
@@ -624,29 +550,176 @@ namespace Analisis2Proyecto
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(802, 217);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabIndex = 40;
             this.pictureBox1.TabStop = false;
             // 
-            // frmCajaHerramientas
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(22, 99);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(97, 25);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Nombre: ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(23, 132);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 25);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Direccion: ";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(22, 167);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(101, 25);
+            this.label9.TabIndex = 37;
+            this.label9.Text = "Telefono: ";
+            // 
+            // xuiCheckBox1
+            // 
+            this.xuiCheckBox1.CheckboxCheckColor = System.Drawing.Color.White;
+            this.xuiCheckBox1.CheckboxColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(250)))));
+            this.xuiCheckBox1.CheckboxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
+            this.xuiCheckBox1.CheckboxStyle = XanderUI.XUICheckBox.Style.Material;
+            this.xuiCheckBox1.Checked = false;
+            this.xuiCheckBox1.ForeColor = System.Drawing.Color.White;
+            this.xuiCheckBox1.Location = new System.Drawing.Point(128, 99);
+            this.xuiCheckBox1.Name = "xuiCheckBox1";
+            this.xuiCheckBox1.Size = new System.Drawing.Size(221, 26);
+            this.xuiCheckBox1.TabIndex = 36;
+            this.xuiCheckBox1.Text = "dsgs";
+            this.xuiCheckBox1.TickThickness = 2;
+            // 
+            // xuiCheckBox4
+            // 
+            this.xuiCheckBox4.CheckboxCheckColor = System.Drawing.Color.White;
+            this.xuiCheckBox4.CheckboxColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(250)))));
+            this.xuiCheckBox4.CheckboxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
+            this.xuiCheckBox4.CheckboxStyle = XanderUI.XUICheckBox.Style.Material;
+            this.xuiCheckBox4.Checked = false;
+            this.xuiCheckBox4.ForeColor = System.Drawing.Color.White;
+            this.xuiCheckBox4.Location = new System.Drawing.Point(128, 132);
+            this.xuiCheckBox4.Name = "xuiCheckBox4";
+            this.xuiCheckBox4.Size = new System.Drawing.Size(221, 26);
+            this.xuiCheckBox4.TabIndex = 36;
+            this.xuiCheckBox4.Text = "dsgs";
+            this.xuiCheckBox4.TickThickness = 2;
+            // 
+            // xuiCheckBox5
+            // 
+            this.xuiCheckBox5.CheckboxCheckColor = System.Drawing.Color.White;
+            this.xuiCheckBox5.CheckboxColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(250)))));
+            this.xuiCheckBox5.CheckboxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
+            this.xuiCheckBox5.CheckboxStyle = XanderUI.XUICheckBox.Style.Material;
+            this.xuiCheckBox5.Checked = false;
+            this.xuiCheckBox5.ForeColor = System.Drawing.Color.White;
+            this.xuiCheckBox5.Location = new System.Drawing.Point(129, 167);
+            this.xuiCheckBox5.Name = "xuiCheckBox5";
+            this.xuiCheckBox5.Size = new System.Drawing.Size(221, 26);
+            this.xuiCheckBox5.TabIndex = 36;
+            this.xuiCheckBox5.Text = "dsgs";
+            this.xuiCheckBox5.TickThickness = 2;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(24, 199);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(84, 25);
+            this.label15.TabIndex = 37;
+            this.label15.Text = "Puesto: ";
+            // 
+            // xuiCheckBox6
+            // 
+            this.xuiCheckBox6.CheckboxCheckColor = System.Drawing.Color.White;
+            this.xuiCheckBox6.CheckboxColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(250)))));
+            this.xuiCheckBox6.CheckboxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(55)))), ((int)(((byte)(98)))));
+            this.xuiCheckBox6.CheckboxStyle = XanderUI.XUICheckBox.Style.Material;
+            this.xuiCheckBox6.Checked = false;
+            this.xuiCheckBox6.ForeColor = System.Drawing.Color.White;
+            this.xuiCheckBox6.Location = new System.Drawing.Point(130, 199);
+            this.xuiCheckBox6.Name = "xuiCheckBox6";
+            this.xuiCheckBox6.Size = new System.Drawing.Size(221, 26);
+            this.xuiCheckBox6.TabIndex = 36;
+            this.xuiCheckBox6.Text = "dsgs";
+            this.xuiCheckBox6.TickThickness = 2;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(157, 101);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(101, 19);
+            this.label16.TabIndex = 42;
+            this.label16.Text = "Maria Acosta";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label17.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(157, 133);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(161, 19);
+            this.label17.TabIndex = 42;
+            this.label17.Text = "Barahona, C: mella #3";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label18.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(157, 171);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(111, 19);
+            this.label18.TabIndex = 42;
+            this.label18.Text = "809-999-9999";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.label19.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(157, 205);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(38, 19);
+            this.label19.TabIndex = 42;
+            this.label19.Text = "Caja";
+            // 
+            // frmPerfilUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 497);
+            this.ClientSize = new System.Drawing.Size(800, 509);
+            this.Controls.Add(this.jGradientPanel1);
             this.Controls.Add(this.xuiGradientPanel1);
             this.Controls.Add(this.jGradientPanel3);
-            this.Controls.Add(this.jGradientPanel2);
-            this.Controls.Add(this.jGradientPanel1);
+            this.Controls.Add(this.jGradientPanel4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "frmCajaHerramientas";
-            this.Text = "frmCajaHerramientas";
+            this.Name = "frmPerfilUsuario";
+            this.Text = "frmPerfilUsuario";
             this.xuiGradientPanel1.ResumeLayout(false);
-            this.jGradientPanel1.ResumeLayout(false);
-            this.jGradientPanel1.PerformLayout();
+            this.jGradientPanel3.ResumeLayout(false);
             this.jGradientPanel4.ResumeLayout(false);
             this.jGradientPanel4.PerformLayout();
-            this.jGradientPanel2.ResumeLayout(false);
-            this.jGradientPanel3.ResumeLayout(false);
+            this.jGradientPanel1.ResumeLayout(false);
+            this.jGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -655,39 +728,47 @@ namespace Analisis2Proyecto
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private XanderUI.XUIButton xuiButton2;
-        private XanderUI.XUIButton xuiButton1;
         private XanderUI.XUIGradientPanel xuiGradientPanel1;
         private XanderUI.XUIButton xuiButton3;
-        private JGradient_Panel.JGradientPanel jGradientPanel1;
-        private Controles.RJButton rjButton10;
-        private Controles.RJButton rjButton9;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private JGradient_Panel.JGradientPanel jGradientPanel2;
-        private FlatButton.JFlatButton jFlatButton2;
-        private FlatButton.JFlatButton jFlatButton3;
+        private XanderUI.XUIButton xuiButton2;
+        private XanderUI.XUIButton xuiButton1;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private JGradient_Panel.JGradientPanel jGradientPanel3;
+        private FlatButton.JFlatButton jFlatButton4;
         private FlatButton.JFlatButton jFlatButton5;
-        private XanderUI.XUICheckBox xuiCheckBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox3;
         private JGradient_Panel.JGradientPanel jGradientPanel4;
-        private FlatButton.JFlatButton jFlatButton1;
-        private XanderUI.XUIButton xuiButton4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label8;
-        private XanderUI.XUICheckBox xuiCheckBox2;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label8;
+        private XanderUI.XUICheckBox xuiCheckBox2;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private FlatButton.JFlatButton jFlatButton1;
+        private Controles.RJButton rjButton9;
+        private Controles.RJButton rjButton10;
+        private JGradient_Panel.JGradientPanel jGradientPanel1;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private XanderUI.XUICheckBox xuiCheckBox3;
+        private System.Windows.Forms.Label label25;
+        private XanderUI.XUICheckBox xuiCheckBox5;
+        private XanderUI.XUICheckBox xuiCheckBox4;
+        private XanderUI.XUICheckBox xuiCheckBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private XanderUI.XUICheckBox xuiCheckBox6;
         private System.Windows.Forms.Label label15;
-        private FlatButton.JFlatButton jFlatButton4;
     }
 }
