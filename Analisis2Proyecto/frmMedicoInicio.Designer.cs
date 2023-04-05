@@ -36,19 +36,20 @@ namespace Analisis2Proyecto
             this.rjButton9 = new Analisis2Proyecto.Controles.RJButton();
             this.jGradientPanel3 = new JGradient_Panel.JGradientPanel();
             this.rjButton10 = new Analisis2Proyecto.Controles.RJButton();
-            this.label3 = new System.Windows.Forms.Label();
             this.jGradientPanel1 = new JGradient_Panel.JGradientPanel();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.xuiGradientPanel1 = new XanderUI.XUIGradientPanel();
+            this.rjButton1 = new Analisis2Proyecto.Controles.RJButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.xuiButton2 = new XanderUI.XUIButton();
             this.xuiButton1 = new XanderUI.XUIButton();
             this.xuiButton3 = new XanderUI.XUIButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.rjButton1 = new Analisis2Proyecto.Controles.RJButton();
-            this.label2 = new System.Windows.Forms.Label();
             this.jGradientPanel3.SuspendLayout();
             this.jGradientPanel1.SuspendLayout();
             this.xuiGradientPanel1.SuspendLayout();
@@ -163,18 +164,6 @@ namespace Analisis2Proyecto
             this.rjButton10.TextColor = System.Drawing.Color.Transparent;
             this.rjButton10.UseVisualStyleBackColor = false;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Image = global::Analisis2Proyecto.Properties.Resources._2_Polygnal_blue07;
-            this.label3.Location = new System.Drawing.Point(77, 6);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(171, 31);
-            this.label3.TabIndex = 49;
-            this.label3.Text = "DAR DE ALTA";
-            // 
             // jGradientPanel1
             // 
             this.jGradientPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -226,6 +215,65 @@ namespace Analisis2Proyecto
             this.label8.Text = "Estudios:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
+            // xuiGradientPanel1
+            // 
+            this.xuiGradientPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.xuiGradientPanel1.BottomLeft = System.Drawing.Color.DeepSkyBlue;
+            this.xuiGradientPanel1.BottomRight = System.Drawing.Color.Navy;
+            this.xuiGradientPanel1.Controls.Add(this.xuiButton2);
+            this.xuiGradientPanel1.Controls.Add(this.xuiButton1);
+            this.xuiGradientPanel1.Controls.Add(this.xuiButton3);
+            this.xuiGradientPanel1.Location = new System.Drawing.Point(0, 92);
+            this.xuiGradientPanel1.Name = "xuiGradientPanel1";
+            this.xuiGradientPanel1.PrimerColor = System.Drawing.Color.Black;
+            this.xuiGradientPanel1.Size = new System.Drawing.Size(801, 38);
+            this.xuiGradientPanel1.Style = XanderUI.XUIGradientPanel.GradientStyle.Corners;
+            this.xuiGradientPanel1.TabIndex = 37;
+            this.xuiGradientPanel1.TopLeft = System.Drawing.Color.Black;
+            this.xuiGradientPanel1.TopRight = System.Drawing.Color.Black;
+            // 
+            // rjButton1
+            // 
+            this.rjButton1.BackColor = System.Drawing.Color.White;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.White;
+            this.rjButton1.BorderColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BorderRadius = 10;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton1.ForeColor = System.Drawing.Color.Lime;
+            this.rjButton1.Location = new System.Drawing.Point(173, 144);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(29, 27);
+            this.rjButton1.TabIndex = 51;
+            this.rjButton1.Text = "✔";
+            this.rjButton1.TextColor = System.Drawing.Color.Lime;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 147);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(167, 24);
+            this.label2.TabIndex = 53;
+            this.label2.Text = "Espera resultados?";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Image = global::Analisis2Proyecto.Properties.Resources._2_Polygnal_blue07;
+            this.label3.Location = new System.Drawing.Point(77, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(171, 31);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "DAR DE ALTA";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -238,21 +286,26 @@ namespace Analisis2Proyecto
             this.label1.TabIndex = 35;
             this.label1.Text = "INFORMACION DEL PACIENTE";
             // 
-            // xuiGradientPanel1
+            // xuiButton2
             // 
-            this.xuiGradientPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.xuiGradientPanel1.BottomLeft = System.Drawing.Color.DeepSkyBlue;
-            this.xuiGradientPanel1.BottomRight = System.Drawing.Color.Navy;
-            this.xuiGradientPanel1.Controls.Add(this.xuiButton1);
-            this.xuiGradientPanel1.Controls.Add(this.xuiButton3);
-            this.xuiGradientPanel1.Location = new System.Drawing.Point(0, 92);
-            this.xuiGradientPanel1.Name = "xuiGradientPanel1";
-            this.xuiGradientPanel1.PrimerColor = System.Drawing.Color.Black;
-            this.xuiGradientPanel1.Size = new System.Drawing.Size(801, 38);
-            this.xuiGradientPanel1.Style = XanderUI.XUIGradientPanel.GradientStyle.Corners;
-            this.xuiGradientPanel1.TabIndex = 37;
-            this.xuiGradientPanel1.TopLeft = System.Drawing.Color.Black;
-            this.xuiGradientPanel1.TopRight = System.Drawing.Color.Black;
+            this.xuiButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(107)))), ((int)(((byte)(254)))));
+            this.xuiButton2.ButtonImage = global::Analisis2Proyecto.Properties.Resources.libro;
+            this.xuiButton2.ButtonStyle = XanderUI.XUIButton.Style.MaterialRounded;
+            this.xuiButton2.ButtonText = "RESULTADOS";
+            this.xuiButton2.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
+            this.xuiButton2.ClickTextColor = System.Drawing.Color.DodgerBlue;
+            this.xuiButton2.CornerRadius = 5;
+            this.xuiButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xuiButton2.Horizontal_Alignment = System.Drawing.StringAlignment.Center;
+            this.xuiButton2.HoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(225)))));
+            this.xuiButton2.HoverTextColor = System.Drawing.Color.DodgerBlue;
+            this.xuiButton2.ImagePosition = XanderUI.XUIButton.imgPosition.Left;
+            this.xuiButton2.Location = new System.Drawing.Point(142, 1);
+            this.xuiButton2.Name = "xuiButton2";
+            this.xuiButton2.Size = new System.Drawing.Size(124, 32);
+            this.xuiButton2.TabIndex = 24;
+            this.xuiButton2.TextColor = System.Drawing.Color.LightBlue;
+            this.xuiButton2.Vertical_Alignment = System.Drawing.StringAlignment.Center;
             // 
             // xuiButton1
             // 
@@ -319,36 +372,6 @@ namespace Analisis2Proyecto
             this.pictureBox1.TabIndex = 35;
             this.pictureBox1.TabStop = false;
             // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.White;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.White;
-            this.rjButton1.BorderColor = System.Drawing.Color.Transparent;
-            this.rjButton1.BorderRadius = 10;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton1.ForeColor = System.Drawing.Color.Lime;
-            this.rjButton1.Location = new System.Drawing.Point(173, 144);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(29, 27);
-            this.rjButton1.TabIndex = 51;
-            this.rjButton1.Text = "✔";
-            this.rjButton1.TextColor = System.Drawing.Color.Lime;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 147);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 24);
-            this.label2.TabIndex = 53;
-            this.label2.Text = "Espera resultados?";
-            // 
             // frmMedicoInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -393,5 +416,6 @@ namespace Analisis2Proyecto
         private XanderUI.XUIButton xuiButton1;
         private Controles.RJButton rjButton1;
         private System.Windows.Forms.Label label2;
+        private XanderUI.XUIButton xuiButton2;
     }
 }

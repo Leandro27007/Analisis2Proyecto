@@ -150,6 +150,12 @@
     <Compile Include="frmMedicoInicio.Designer.cs">
       <DependentUpon>frmMedicoInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMedicoResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedicoResultados.Designer.cs">
+      <DependentUpon>frmMedicoResultados.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPerfilUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMedicoInicio.resx">
       <DependentUpon>frmMedicoInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMedicoResultados.resx">
+      <DependentUpon>frmMedicoResultados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPerfilUsuario.resx">
       <DependentUpon>frmPerfilUsuario.cs</DependentUpon>
@@ -309,6 +318,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\admin_man_person_user_icon_127232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libro.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
